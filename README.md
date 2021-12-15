@@ -1,1 +1,1 @@
-# taro-react-redux-template
+使用taro+react+typescript+redux+tard搭建微信小程序、h5模版；包括多包场景、图片使用iconfont等
