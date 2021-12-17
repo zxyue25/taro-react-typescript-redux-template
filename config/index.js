@@ -1,5 +1,5 @@
 const config = {
-  projectName: "demo",
+  projectName: "taro+react+typescript+redux+tard-template",
   date: "2021-12-15",
   designWidth: 750,
   deviceRatio: {
