@@ -1,3 +1,5 @@
+import { resolve } from 'path';
+
 const config = {
   projectName: "taro+react+typescript+redux+tard-template",
   date: "2021-12-15",
@@ -9,6 +11,9 @@ const config = {
   },
   sourceRoot: "src",
   outputRoot: "dist",
+  alias: {
+    '@': resolve(__dirname, '..', 'src/'),
+  },
   plugins: [],
   defineConstants: {},
   copy: {
