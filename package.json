@@ -24,7 +24,8 @@
     "build-prod:weapp": "cross-env APP_ENV=prod taro build --type weapp",
     "build-prod:h5": "cross-env APP_ENV=prod taro build --type h5",
     "dev-prod:weapp": "cross-env APP_ENV=prod npm run build:weapp -- --watch",
-    "dev-prod:h5": "cross-env APP_ENV=prod npm run build:h5 -- --watch"
+    "dev-prod:h5": "cross-env APP_ENV=prod npm run build:h5 -- --watch",
+    "icon": "npx iconfont-taro"
   },
   "browserslist": [
     "last 3 versions",
@@ -60,6 +61,7 @@
     "eslint-plugin-react": "^7.8.2",
     "eslint-plugin-react-hooks": "^4.2.0",
     "stylelint": "9.3.0",
+    "taro-iconfont-cli": "^3.3.0",
     "typescript": "^4.2.3"
   },
   "engines": {
