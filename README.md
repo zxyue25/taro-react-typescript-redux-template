@@ -201,3 +201,73 @@ const config = {
 
 
 ### 三、图片
+
+```
+taro-react-typescript-redux-template
+├─ .editorconfig
+├─ .env  // [开发环境环境变量]配置文件
+├─ .env.pre  // [预发环境环境变量]配置文件
+├─ .env.prod  // [生产环境环境变量]配置文件
+├─ .env.test  // [测试环境环境变量]配置文件
+├─ .eslintrc.js // ESLint规则配置文件
+├─ .gitignore // git忽略文件
+├─ .yarnrc
+├─ README.md
+├─ babel.config.js
+├─ config // taro配置文件
+│  ├─ dev.js // 开发环境配置文件
+│  ├─ index.js // 配置文件入口
+│  └─ prod.js // 生产环境配置文件
+├─ global.d.ts
+├─ iconfont.json // 图片处理配置文件
+├─ package.json
+├─ project.config.json
+├─ project.tt.json
+├─ src
+│  ├─ apis
+│  │  └─ index.ts
+│  ├─ app.config.ts
+│  ├─ app.less
+│  ├─ app.ts
+│  ├─ assets
+│  │  └─ iconfont
+│  │     ├─ h5
+│  │     └─ weapp
+│  ├─ constants
+│  │  └─ index.ts
+│  ├─ index.html
+│  ├─ pages
+│  │  ├─ module1
+│  │  │  ├─ apis
+│  │  │  │  └─ index.ts
+│  │  │  ├─ page1
+│  │  │  │  └─ index.tsx
+│  │  │  └─ page2
+│  │  │     └─ index.tsx
+│  │  ├─ module2
+│  │  │  ├─ apis
+│  │  │  │  └─ index.ts
+│  │  │  ├─ page1
+│  │  │  │  └─ index.tsx
+│  │  │  └─ page2
+│  │  │     └─ index.tsx
+│  │  └─ tab-bar
+│  │     ├─ apis
+│  │     │  └─ index.ts
+│  │     ├─ home
+│  │     │  ├─ index.config.ts
+│  │     │  ├─ index.less
+│  │     │  └─ index.tsx
+│  │     └─ mine
+│  │        ├─ index.config.ts
+│  │        ├─ index.less
+│  │        └─ index.tsx
+│  ├─ types
+│  │  └─ index.ts
+│  └─ utils
+│     ├─ cookie.ts
+│     ├─ https.ts
+│     └─ index.ts
+└─ tsconfig.json
+
+```
