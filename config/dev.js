@@ -1,8 +1,10 @@
-process.env.APP_ENV = process.env.APP_ENV || 'dev'
+process.env.APP_ENV = process.env.APP_ENV || 'pre'
 
 require('dotenv-flow').config({
   node_env: process.env.APP_ENV
 })
+
+console.log(process.env)
 
 module.exports = {
   env: {
