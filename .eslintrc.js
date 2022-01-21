@@ -1,4 +1,4 @@
 /* eslint-disable */
 module.exports = {
-  "extends": ['selling/taro']
+  "extends": ['selling/react']
 }
